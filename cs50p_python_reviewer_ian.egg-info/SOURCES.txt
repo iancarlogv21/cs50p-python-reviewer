@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+pyproject.toml
+cs50p_python_reviewer_ian.egg-info/PKG-INFO
+cs50p_python_reviewer_ian.egg-info/SOURCES.txt
+cs50p_python_reviewer_ian.egg-info/dependency_links.txt
+cs50p_python_reviewer_ian.egg-info/entry_points.txt
+cs50p_python_reviewer_ian.egg-info/requires.txt
+cs50p_python_reviewer_ian.egg-info/top_level.txt
+cs50p_reviewer/__init__.py
+cs50p_reviewer/project.py
+cs50p_reviewer/questions.json

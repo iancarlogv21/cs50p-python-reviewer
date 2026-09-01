@@ -1,0 +1,24 @@
+Metadata-Version: 2.4
+Name: cs50p-python-reviewer-ian
+Version: 1.0.4
+Summary: An interactive CLI study reviewer for CS50P students.
+Author: Ian Carlo G. Ventura
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: rich>=10.0.0
+
+# CS50P Python Reviewer TUI
+#### Video Demo: https://youtu.be/YOUR_VIDEO_URL
+#### Description:
+The CS50P Python Reviewer TUI is an interactive terminal application designed for students mastering Python fundamentals. The software uses a structured JSON database (`questions.json`) containing 5 questions per module spanning Weeks 0 through 8 of CS50P.
+
+Features include user session tracking, personalized history viewing restricted to the current user, randomized question shuffling, optional timed challenge mode, and a missed-questions review round. The interface uses the `rich` library for formatted panels, tables, and colored prompts.
+
+### Files Included:
+- `project.py`: Main application code handling menu logic, user prompts, scoring, and history logging.
+- `questions.json`: Database of multiple-choice and identification questions.
+- `test_project.py`: Pytest test suite for core logic validation.
+- `requirements.txt`: Package dependency list (`rich`, `pytest`).

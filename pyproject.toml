@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cs50p-python-reviewer-ian"
+version = "1.0.4"
+description = "An interactive CLI study reviewer for CS50P students."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+    { name = "Ian Carlo G. Ventura" }
+]
+dependencies = [
+    "rich>=10.0.0"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.scripts]
+cs50p-review = "cs50p_reviewer.project:main"
+
+[tool.setuptools]
+packages = ["cs50p_reviewer"]
+include-package-data = true
+
+[tool.setuptools.package-data]
+"cs50p_reviewer" = ["questions.json"]

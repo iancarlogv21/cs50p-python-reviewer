@@ -1,0 +1,2 @@
+[console_scripts]
+cs50p-review = cs50p_reviewer.project:main

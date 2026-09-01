@@ -1,0 +1,335 @@
+{
+  "0": [
+    {
+      "type": "multiple_choice",
+      "question": "Which built-in function outputs text directly to the console?",
+      "options": ["A) input()", "B) print()", "C) format()", "D) display()"],
+      "answer": "B",
+      "explanation": "The print() function is built into Python to output text directly to the console."
+    },
+    {
+      "type": "identification",
+      "question": "Which string method removes whitespace from both ends of a string?",
+      "options": [],
+      "answer": "strip",
+      "explanation": "The strip() method removes leading and trailing spaces or specified characters from a string."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "What is the return type of the built-in input() function?",
+      "options": ["A) int", "B) float", "C) str", "D) bool"],
+      "answer": "C",
+      "explanation": "The input() function always returns user input as a string (str) data type by default."
+    },
+    {
+      "type": "identification",
+      "question": "Which built-in function converts a value into an integer?",
+      "options": [],
+      "answer": "int",
+      "explanation": "The int() function constructs an integer number from an integer literal, float, or valid string."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Which operator is used to perform exponentiation in Python?",
+      "options": ["A) ^", "B) **", "C) //", "D) %"],
+      "answer": "B",
+      "explanation": "The double asterisk (**) operator is used for raising a number to a power in Python."
+    }
+  ],
+  "1": [
+    {
+      "type": "identification",
+      "question": "What conditional keyword is Python's abbreviation for 'else if'?",
+      "options": [],
+      "answer": "elif",
+      "explanation": "Python uses 'elif' instead of 'else if' to chain conditional checks cleanly."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "What structural pattern matching keyword was introduced in Python 3.10?",
+      "options": ["A) switch", "B) match", "C) select", "D) case"],
+      "answer": "B",
+      "explanation": "Python 3.10 introduced structural pattern matching using the 'match' and 'case' keywords."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Which comparison operator checks if two values are NOT equal[cite: 8]?",
+      "options": ["A) <>", "B) !=", "C) ==", "D) not"],
+      "answer": "B",
+      "explanation": "The '!=' operator evaluates to True if the operands on either side are not equal."
+    },
+    {
+      "type": "identification",
+      "question": "Which logical operator evaluates to True only if both expressions are True[cite: 8]?",
+      "options": [],
+      "answer": "and",
+      "explanation": "The 'and' operator requires all connected boolean conditions to be True for the overall statement to be True."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "What does bool(0) evaluate to in Python[cite: 8]?",
+      "options": ["A) True", "B) False", "C) None", "D) Error"],
+      "answer": "B",
+      "explanation": "In Python, the number 0 is considered falsy, so bool(0) evaluates to False."
+    }
+  ],
+  "2": [
+    {
+      "type": "multiple_choice",
+      "question": "Which loop control keyword immediately skips the current iteration and jumps to the next loop cycle[cite: 7]?",
+      "options": ["A) continue", "B) pass", "C) break", "D) exit"],
+      "answer": "A",
+      "explanation": "The 'continue' statement skips the rest of the current loop iteration and moves directly to the next cycle."
+    },
+    {
+      "type": "identification",
+      "question": "Which built-in type represents an ordered, mutable sequence of items[cite: 1, 7]?",
+      "options": [],
+      "answer": "list",
+      "explanation": "Lists are ordered collections in Python that can be modified (mutable) after creation."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Which built-in function generates a sequence of numbers, commonly used in for loops[cite: 7]?",
+      "options": ["A) sequence()", "B) range()", "C) loop()", "D) iterate()"],
+      "answer": "B",
+      "explanation": "The range() function returns a sequence of numbers, typically used to iterate a specific number of times in a loop."
+    },
+    {
+      "type": "identification",
+      "question": "Which loop control keyword immediately terminates loop execution entirely[cite: 7]?",
+      "options": [],
+      "answer": "break",
+      "explanation": "The 'break' statement exits out of the enclosing loop completely, skipping any remaining iterations."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Which data structure stores key-value pairs[cite: 7]?",
+      "options": ["A) list", "B) tuple", "C) dict", "D) set"],
+      "answer": "C",
+      "explanation": "Dictionaries (dict) store data in key-value pairs for fast lookups."
+    }
+  ],
+  "3": [
+    {
+      "type": "identification",
+      "question": "Which keyword begins a block of code meant to catch exceptions[cite: 1]?",
+      "options": [],
+      "answer": "except",
+      "explanation": "The 'except' block catches and handles exceptions raised inside a preceding 'try' block."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Which exception is raised when dividing a number by zero[cite: 1]?",
+      "options": ["A) TypeError", "B) ValueError", "C) ZeroDivisionError", "D) ArithmeticError"],
+      "answer": "C",
+      "explanation": "Dividing any number by zero triggers a ZeroDivisionError in Python."
+    },
+    {
+      "type": "identification",
+      "question": "Which keyword is used to manually raise an exception in Python[cite: 1]?",
+      "options": [],
+      "answer": "raise",
+      "explanation": "The 'raise' keyword allows programmers to force a specified exception to occur."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Which exception is raised when trying to access a dictionary key that does not exist[cite: 1]?",
+      "options": ["A) KeyError", "B) IndexError", "C) NameError", "D) LookupError"],
+      "answer": "A",
+      "explanation": "Accessing a missing key in a dictionary raises a KeyError."
+    },
+    {
+      "type": "identification",
+      "question": "What keyword defines a block that executes regardless of whether an exception occurred?",
+      "options": [],
+      "answer": "finally",
+      "explanation": "The 'finally' block always executes at the end of a try/except statement, useful for cleanup tasks."
+    }
+  ],
+  "4": [
+    {
+      "type": "multiple_choice",
+      "question": "Which standard library module provides command-line arguments via sys.argv[cite: 6]?",
+      "options": ["A) os", "B) sys", "C) random", "D) math"],
+      "answer": "B",
+      "explanation": "The 'sys' module includes sys.argv, which holds command-line arguments passed to a script[cite: 6]."
+    },
+    {
+      "type": "identification",
+      "question": "What is the name of Python's official third-party package repository[cite: 6]?",
+      "options": [],
+      "answer": "PyPI",
+      "explanation": "PyPI (Python Package Index) is the official repository where third-party Python packages are hosted[cite: 6]."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Which module contains functions for generating pseudo-random numbers[cite: 6]?",
+      "options": ["A) statistics", "B) random", "C) math", "D) sys"],
+      "answer": "B",
+      "explanation": "The 'random' module provides functions like random.choice() and random.randint()[cite: 6]."
+    },
+    {
+      "type": "identification",
+      "question": "What command-line package manager is standard for installing third-party libraries[cite: 6]?",
+      "options": [],
+      "answer": "pip",
+      "explanation": "'pip' is the standard package installer used to download packages from PyPI[cite: 6]."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Which popular third-party module is commonly used to query web APIs[cite: 6]?",
+      "options": ["A) urllib", "B) requests", "C) http", "D) json"],
+      "answer": "B",
+      "explanation": "The 'requests' package is the standard third-party library for making HTTP requests to web APIs[cite: 6]."
+    }
+  ],
+  "5": [
+    {
+      "type": "identification",
+      "question": "Which keyword is used inside pytest test functions to verify conditions[cite: 5]?",
+      "options": [],
+      "answer": "assert",
+      "explanation": "The 'assert' keyword evaluates boolean expressions in tests; if False, pytest flags a failure[cite: 5]."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "What prefix must test files have for pytest to automatically detect them[cite: 5]?",
+      "options": ["A) check_", "B) test_", "C) eval_", "D) verify_"],
+      "answer": "B",
+      "explanation": "Pytest automatically discovers files and test functions starting with the 'test_' prefix[cite: 5]."
+    },
+    {
+      "type": "identification",
+      "question": "What specific exception is raised when an assert statement fails in Python[cite: 5]?",
+      "options": [],
+      "answer": "AssertionError",
+      "explanation": "A failed assert statement natively triggers an AssertionError[cite: 5]."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Which package manager command installs the testing framework[cite: 5]?",
+      "options": ["A) pip install pytest", "B) conda install pytest", "C) python test pytest", "D) get pytest"],
+      "answer": "A",
+      "explanation": "You install pytest in your terminal using 'pip install pytest'[cite: 5]."
+    },
+    {
+      "type": "identification",
+      "question": "What special file name is historically used to initialize Python package directories[cite: 5]?",
+      "options": [],
+      "answer": "__init__.py",
+      "explanation": "__init__.py marks a directory as a package container[cite: 5]."
+    }
+  ],
+  "6": [
+    {
+      "type": "multiple_choice",
+      "question": "Which built-in file open mode allows appending data without overwriting[cite: 4]?",
+      "options": ["A) 'r'", "B) 'w'", "C) 'a'", "D) 'b'"],
+      "answer": "C",
+      "explanation": "Mode 'a' (append) adds new data to the end of a file without destroying existing contents[cite: 4]."
+    },
+    {
+      "type": "identification",
+      "question": "Which standard Python module is used to parse and write CSV tables[cite: 4]?",
+      "options": [],
+      "answer": "csv",
+      "explanation": "The 'csv' module provides reader and writer objects to handle comma-separated value files[cite: 4]."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Which built-in function safely opens files and handles closing automatically using context managers[cite: 4]?",
+      "options": ["A) file()", "B) open()", "C) read()", "D) load()"],
+      "answer": "B",
+      "explanation": "The open() function combined with a 'with' statement safely manages file resources[cite: 4]."
+    },
+    {
+      "type": "identification",
+      "question": "Which keyword is used to establish a context manager block when opening files[cite: 4]?",
+      "options": [],
+      "answer": "with",
+      "explanation": "The 'with' statement handles cleanup and resource closing automatically[cite: 4]."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Which built-in function returns a sorted list from any iterable[cite: 4]?",
+      "options": ["A) order()", "B) arrange()", "C) sorted()", "D) sort()"],
+      "answer": "C",
+      "explanation": "The sorted() function returns a new sorted list from any iterable container[cite: 4]."
+    }
+  ],
+  "7": [
+    {
+      "type": "identification",
+      "question": "Which standard library module provides support for regular expressions[cite: 3]?",
+      "options": [],
+      "answer": "re",
+      "explanation": "The 're' module implements regular expression matching operations[cite: 3]."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "What does the regular expression anchor symbol '^' signify[cite: 3]?",
+      "options": ["A) End of string", "B) Beginning of string", "C) Any character", "D) Zero or one repetition"],
+      "answer": "B",
+      "explanation": "The '^' anchor asserts that the match must start at the beginning of the string[cite: 3]."
+    },
+    {
+      "type": "identification",
+      "question": "Which regular expression shorthand character class matches any decimal digit[cite: 3]?",
+      "options": [],
+      "answer": "\\d",
+      "explanation": "\\d matches any single digit from 0 to 9[cite: 3]."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Which flag makes regular expression matching case-insensitive[cite: 2, 3]?",
+      "options": ["A) re.IGNORECASE", "B) re.LOWER", "C) re.CASELESS", "D) re.INSENSITIVE"],
+      "answer": "A",
+      "explanation": "re.IGNORECASE ensures that letters match regardless of their capitalization[cite: 2, 3]."
+    },
+    {
+      "type": "identification",
+      "question": "Which regex metacharacter matches 1 or more repetitions of the preceding character[cite: 3]?",
+      "options": [],
+      "answer": "+",
+      "explanation": "The '+' metacharacter requires one or more occurrences of the element before it[cite: 3]."
+    }
+  ],
+  "8": [
+    {
+      "type": "identification",
+      "question": "What special method initializes instance variables in a class object[cite: 1]?",
+      "options": [],
+      "answer": "__init__",
+      "explanation": "The __init__ method acts as the constructor method when instantiating objects[cite: 1]."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "What decorator defines a getter property method within a class[cite: 1]?",
+      "options": ["A) @classmethod", "B) @property", "C) @staticmethod", "D) @getter"],
+      "answer": "B",
+      "explanation": "The @property decorator allows methods to be accessed like attributes while supporting getters[cite: 1]."
+    },
+    {
+      "type": "identification",
+      "question": "What keyword is used to declare a new user-defined class[cite: 1]?",
+      "options": [],
+      "answer": "class",
+      "explanation": "The 'class' keyword defines a blueprint for creating objects[cite: 1]."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "What decorator defines a class method bound to the class rather than its instance[cite: 1]?",
+      "options": ["A) @classmethod", "B) @property", "C) @staticmethod", "D) @bound"],
+      "answer": "A",
+      "explanation": "@classmethod receives the class as the implicit first argument instead of an instance[cite: 1]."
+    },
+    {
+      "type": "identification",
+      "question": "What special method controls the string representation of an object when printed[cite: 1]?",
+      "options": [],
+      "answer": "__str__",
+      "explanation": "The __str__ method returns a readable string representation when print() is called on an object[cite: 1]."
+    }
+  ]
+}
