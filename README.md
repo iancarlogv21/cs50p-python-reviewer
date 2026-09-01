@@ -1,5 +1,5 @@
 # CS50P PYTHON REVIEWER
-#### Video Demo: [https://youtu.be/t6mInAveUKE?si=tYx-VezSIYnTtk47]
+
 
 ## Overview & Motivation
 The **CS50P Python Reviewer** is an interactive, command-line interface (CLI) study application designed specifically for students taking **CS50's Introduction to Programming with Python (CS50P)**. As learners progress from foundational concepts like basic functions to advanced object-oriented programming, retaining syntax and theoretical nuances can become challenging.
